@@ -1,7 +1,13 @@
+import Hero from '../components/Hero.jsx';
+import AboutUs from '../components/AboutUs';
+import Services from '../components/Services';
+
 export default function Home() {
   return (
     <div>
-      <h1> Hello World</h1>
+      <Hero />
+      <AboutUs />
+      <Services />
     </div>
   );
 }

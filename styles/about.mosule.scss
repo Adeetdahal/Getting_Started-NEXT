@@ -1,0 +1,29 @@
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+    .a-left{
+        width: 50%;
+        text-align: left;
+    }
+    .a-right{
+        width: 50%;
+
+        p{
+            padding-bottom: 2rem;
+        }
+
+        .gap{
+            line-height: 0 ;
+            h4{
+                color: blue;
+            }
+        }
+        .line{
+            background-color:blue;
+        height: 3px;
+        width: 90px;
+        }
+    }
+}
