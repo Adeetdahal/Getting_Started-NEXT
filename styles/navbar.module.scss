@@ -1,12 +1,15 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    padding:0 10%;
+    padding:0 5%;
     color: white;
     background-color:black;
+    height: 5rem;
 
     .logo{
         display: flex;
+        align-items: center;
+        width:30%;
     }
     .menu{
         display: flex;
@@ -17,4 +20,19 @@
     ul a:hover{
         color: yellow;
     }
+    ul li{
+        list-style: none;
+    }
+    @media (max-width: 998px){
+        .menu{
+            display: none;
+        } 
+        .logo{
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+        }
+    }
 }
+
+

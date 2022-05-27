@@ -8,9 +8,17 @@ function Navbar() {
         <h3>DANPHE INNOVATIONS</h3>
       </div>
       <ul className="menu">
-        <Link href="/">Home</Link>
-        <Link href="#about">About Us</Link>
-        <Link href="#services">Services </Link>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="#about">About Us</Link>
+        </li>
+        <li>
+          <Link href="#services">Services </Link>
+        </li>
+        {/* <Link href="#services">Services </Link>
+        <Link href="#services">Services </Link> */}
       </ul>
     </nav>
   );
