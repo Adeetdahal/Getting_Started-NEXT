@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 function Hero() {
   return (
     <div className="hero">
@@ -10,7 +11,8 @@ function Hero() {
         <p>Innovations and you</p>
         <div className="gap">
           <h4>Read More</h4>
-          <div className="line"></div>
+          <hr style={{ border: '1px solid orange', width: '90px' }} />
+          {/* <div className="line" />  */}
         </div>
       </div>
     </div>

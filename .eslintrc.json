@@ -29,6 +29,6 @@
             "js": "never",
             "mjs": "never",
             "jsx": "never"
-        }],
+        }]
     }
 }
