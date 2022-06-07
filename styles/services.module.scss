@@ -1,0 +1,25 @@
+.services{
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5%;
+
+    p{
+        width: 50%;
+        text-align: center
+    }
+    .line{
+        background-color:orange;
+        height: 3px;
+        width: 90px;
+    }
+    .gap{
+        line-height: 0;
+        h4{
+            color: yellow;
+        }
+    }
+}
