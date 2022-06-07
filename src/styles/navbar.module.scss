@@ -1,0 +1,32 @@
+.hamburger-menu {
+  display: none;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+@media (max-width: 998px) {
+  .menu {
+    display: none;
+  }
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+    margin-top: 225px;
+    margin-left: 450px;
+    background-color: wheat;
+    height: 13rem;
+    color: black;
+    width: 30%;
+    box-shadow: 5px 8px 16px 0 grey;
+  }
+}
